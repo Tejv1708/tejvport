@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Tejveer Naruka Portofolio</title>
+</head>
+<body>
+
+    <!-- Navbar section  -->
+    <nav>
+  <h1>
+      Tejveer Naruka
+  </h1>
+  <ul class="navigation"> 
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Project</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <button class="burger-menu" id="burger-menu"><ion-icon class="bars" name ="menu-outline"></ion-icon></button>
+  </ul>
+</nav>
+
+    <!-- Hero Section  -->
+ <section class="hero" id="about">
+     <img src="assets/images/wfh_1.svg" alt="tejveer" loading ="lazy" class="hero-img" />
+     <div class="bio animate_animated animate_shakeX">
+         <h2 class="bio-title">About Me</h2>
+         <p class="bio-text">My name is Tejveer Singh Naruka .I live in jaipur . I am a Web-devloper . I do one intern in Web-devloper from spark foundation . I continuosly work on web-development from 1 year . I do some project on it .  
+         </p>
+     </div>
+ </section>
+
+    <!-- More about  -->
+
+    <section class="more-about">
+ <h2>More About Me</h2>
+ <p> I complete my Primary education from Mayur Convent School . Which is in jaipur ,Rajsthan . I got 80% in 10th board .  </p>
+ <p>I complete my secondary education from Aastha Academy . Which is in sikae , Rajsthan . I got 78% in 12th board .</p>
+ <p>Now I pursuring my B.Tech from GFTI Gurukul kangri College which situated in Haridwar , Uttrakhand . Now , I am in 3rd year EE Branch .</p>
+    </section>
+
+    <!-- Project Section  -->
+ <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2> 
+    <div class="skills-wrapper">
+     <div class="first-set animated animate_pulse"><img src="assets/icons/icons8-html-5.svg" alt="" loading ="lazy" class="icon icon-card"/>
+    <img src="assets/icons/icons8-css3.svg" alt="" loaing ="lazy" class="icon icon-card">
+<img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"></div>
+<div class="second-set animate_animated animate_pulse">
+<img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+<img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+<img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+
+</div>
+</div>
+</section>
+    <!-- Contact Section  -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects </h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images//img_3.png" alt="Resort"
+                loading="lazy"
+                class="project-pic">
+  <h3 class="project-title">Resort</h3>
+  <p class="project-details">This is simple a resort website in which you have so many room according to its type . There is also filter like for how many people room you want , do you have pet , you want breakfast etc
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa quod architecto. </p>
+  <a href="https://resortapplication.herokuapp.com/" target="_blank" class="project-link">check it out </a>
+
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/img_2.jpg" alt="BlackJack"
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">BlackJack</h3>
+                <p class="project-details">This is a simple luck game in which you have to click on start game and after that it will give you 2 random cards if its sum is greater then 21 then you lost , equal to  21 then win , less than 21 then you have to pick one more card and then same conditions which is mention above   </p>
+                <a href="https://elegant-brown-172a5b.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+          <img
+            src="assets/images/img_1.png"
+            alt="Portfolio"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Portfolio</h3>
+          <p class="project-details">
+           This is my portfolio which is this one . Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptates debitis, consectetur quo optio non deserunt? Dolorem suscipit corrupti sequi provident quibusdam placeat minima? Velit saepe voluptate placeat sapiente facilis. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+       
+    </section>
+
+    <!-- Social accounts - fixed to the right  -->
+<section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                        required />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                        class="input-field" required />
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                        class="input-field" required></textarea>
+                </div>
+                <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="socials">
+    <a href="https://twitter.com/naruka_tejveer" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy"
+            class="socicon" /></a>
+    <a href="https://www.instagram.com/naruka_tejveer/" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
+            class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/tejveer-singh-naruka-3a74b31b0/" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
+            class="socicon" /></a>
+    <a href="https://github.com/Tejv1708" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+  </div>
+    <!-- Scroll to top  -->
+    <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://twitter.com/koladechris" target="_blank">Kolade Chris (Ksound)</a>
+        </p>
+    </footer>
+  
+    <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+            alt="scroll-up" /></i>
+    <!-- Footer Section  -->
+
+    
+  <!-- Website Script  -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+
+    <script
+    type="module"
+    
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+    nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
